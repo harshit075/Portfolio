@@ -36,7 +36,7 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo"></img>
+           <h3 style={{color: "white", textDecoration: "underline"}}>Portfolio.</h3>
         </Navbar.Brand>
         
 
@@ -53,11 +53,11 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt=""/></a>
-              <a href="#"><img src={navIcon2} alt=""/></a>
-              <a href="#"><img src={navIcon3} alt=""/></a>
+              <a href="https://www.linkedin.com/in/harshit-borana-3a685a257/"><img src={navIcon1} alt=""/></a>
+              <a href="https://github.com/harshit075"><img src={navIcon2} alt=""/></a>
+              <a href="https://www.instagram.com/_harsh.it_09?igsh=MTJoNXFqcDB6dDllYg=="><img src={navIcon3} alt=""/></a>
             </div>
-            <button className="vvd" onClick={() => console.log('Connect')}><span>Let's Connect</span></button>
+            <button  className="vvd"  onClick={() => console.log('Connect')}><span><a  style={{background: "white"}}href="#Connect">Let's Connect</a></span></button>
           </span>
         </Navbar.Collapse>
       </Container>
