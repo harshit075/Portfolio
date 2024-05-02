@@ -68,8 +68,8 @@ export const Projects = () => {
         imgUrl: IOTproject2,
       },
       {
-        title: "Vata Rakshak: Tree Cutting and Alerting System",
-        description: "It Detect & Inform forest fire, rise in temp & humadity, theft alert to the forest departement, local police and near by local area through web app notification. MNIT Hackathon Winner Project",
+        title: "Smart Goggles for Blind ",
+        description: "Smart Goggles helps blind person to avoid the obstacles in front of them. Tech Stack : Arduino UNO, C++, Ultra sonic sensor",
         imgUrl: IOTproject3,
       },
       {
