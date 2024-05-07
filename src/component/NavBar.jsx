@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
-import logo from '../assets/img/logo.svg';
+// import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -35,7 +35,7 @@ const NavBar = () => {
     <>
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#Home">
            <h3 style={{color: "white", textDecoration: "underline"}}>Portfolio.</h3>
         </Navbar.Brand>
         
@@ -57,7 +57,7 @@ const NavBar = () => {
               <a href="https://github.com/harshit075"><img src={navIcon2} alt=""/></a>
               <a href="https://www.instagram.com/_harsh.it_09?igsh=MTJoNXFqcDB6dDllYg=="><img src={navIcon3} alt=""/></a>
             </div>
-            <button  className="vvd"  onClick={() => console.log('Connect')}><span><a  style={{background: "white"}}href="#Connect">Let's Connect</a></span></button>
+            <button  className="vvd"  onClick={() => console.log('Connect')}><span><a  style={{color: "Yellow"}}href="#Connect">Let's Connect</a></span></button>
           </span>
         </Navbar.Collapse>
       </Container>

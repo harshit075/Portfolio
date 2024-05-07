@@ -6,6 +6,7 @@ import projImg12 from "../assets/img/project-vikrant.png";
 import projImg13 from "../assets/img/project-amazon.png";
 import projImg14 from "../assets/img/project-tic-tac-toe.png";
 import projImg15 from "../assets/img/project-stone-paper-sizzer.png";
+import projImg16 from "../assets/img/project-currency.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import IOTproject1 from "../assets/img/smart_boat.jpg"
 import IOTproject4 from "../assets/img/Vatarakshak.png"
@@ -54,6 +55,11 @@ export const Projects = () => {
       title: "Ston, Paper, Sizzer",
       description: "HTML, CSS, JAVASCRIPT",
       imgUrl: projImg15,
+    },
+    {
+      title: "Currency Converter",
+      description: "HTML, CSS, JAVASCRIPT",
+      imgUrl: projImg16,
     },
   ]
     const iotprojects = [
@@ -140,7 +146,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">IOT Project</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Achivements</Nav.Link>
+                      <Nav.Link eventKey="third">Awards</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -188,7 +194,8 @@ export const Projects = () => {
                       </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>}
+              </div>
+              }
             </TrackVisibility>
           </Col>
         </Row>

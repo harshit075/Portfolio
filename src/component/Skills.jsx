@@ -49,7 +49,7 @@ return (
                         </div>
                         <div className="item">
                             <img src={meter3} alt="Image"/>
-                            <h5>Micro Controller</h5>
+                            <h5>Internet of things</h5>
                         </div>
                         <div className="item">
                             <img src={meter1} alt="Image"/>
@@ -65,5 +65,4 @@ return (
     </section>
 )
 }
-
 export default Skills
